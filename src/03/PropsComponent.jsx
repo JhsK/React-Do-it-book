@@ -7,7 +7,7 @@ class PropsComponent extends React.Component {
   }
 }
 
-PropsComponent.PropsTypes = {
+PropsComponent.propsTypes = {
   name: PropsTypes.string,
 };
 
