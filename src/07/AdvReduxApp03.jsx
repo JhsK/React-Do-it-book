@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import configureStore from "./configureStore";
 import { setCollection } from "./actions/collectionActions01";
 
-class AdvReduxApp extends PureComponent {
+class AdvReduxApp03 extends PureComponent {
   store = configureStore({ loading: false });
 
   componentDidMount() {
@@ -14,9 +14,9 @@ class AdvReduxApp extends PureComponent {
       ])
     );
   }
-
   render() {
     return <Provider store={this.store}>리덕스 예제</Provider>;
   }
 }
-export default AdvReduxApp;
+
+export default AdvReduxApp03;
